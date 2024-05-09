@@ -1,5 +1,3 @@
-/* Write your T-SQL query statement below */
-
 /*Case 1 - when there is a product_id from product table present in unitssold table*/
 with cte_sales as
 (select p.product_id, 
